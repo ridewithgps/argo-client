@@ -1,0 +1,42 @@
+# argo-workflows::IoArgoprojEventsV1alpha1EventSourceSpec
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**amqp** | [**Hash&lt;String, IoArgoprojEventsV1alpha1AMQPEventSource&gt;**](IoArgoprojEventsV1alpha1AMQPEventSource.md) |  | [optional] 
+**azure_events_hub** | [**Hash&lt;String, IoArgoprojEventsV1alpha1AzureEventsHubEventSource&gt;**](IoArgoprojEventsV1alpha1AzureEventsHubEventSource.md) |  | [optional] 
+**azure_queue_storage** | [**Hash&lt;String, IoArgoprojEventsV1alpha1AzureQueueStorageEventSource&gt;**](IoArgoprojEventsV1alpha1AzureQueueStorageEventSource.md) |  | [optional] 
+**azure_service_bus** | [**Hash&lt;String, IoArgoprojEventsV1alpha1AzureServiceBusEventSource&gt;**](IoArgoprojEventsV1alpha1AzureServiceBusEventSource.md) |  | [optional] 
+**bitbucket** | [**Hash&lt;String, IoArgoprojEventsV1alpha1BitbucketEventSource&gt;**](IoArgoprojEventsV1alpha1BitbucketEventSource.md) |  | [optional] 
+**bitbucketserver** | [**Hash&lt;String, IoArgoprojEventsV1alpha1BitbucketServerEventSource&gt;**](IoArgoprojEventsV1alpha1BitbucketServerEventSource.md) |  | [optional] 
+**calendar** | [**Hash&lt;String, IoArgoprojEventsV1alpha1CalendarEventSource&gt;**](IoArgoprojEventsV1alpha1CalendarEventSource.md) |  | [optional] 
+**emitter** | [**Hash&lt;String, IoArgoprojEventsV1alpha1EmitterEventSource&gt;**](IoArgoprojEventsV1alpha1EmitterEventSource.md) |  | [optional] 
+**event_bus_name** | **String** |  | [optional] 
+**file** | [**Hash&lt;String, IoArgoprojEventsV1alpha1FileEventSource&gt;**](IoArgoprojEventsV1alpha1FileEventSource.md) |  | [optional] 
+**generic** | [**Hash&lt;String, IoArgoprojEventsV1alpha1GenericEventSource&gt;**](IoArgoprojEventsV1alpha1GenericEventSource.md) |  | [optional] 
+**gerrit** | [**Hash&lt;String, IoArgoprojEventsV1alpha1GerritEventSource&gt;**](IoArgoprojEventsV1alpha1GerritEventSource.md) |  | [optional] 
+**github** | [**Hash&lt;String, IoArgoprojEventsV1alpha1GithubEventSource&gt;**](IoArgoprojEventsV1alpha1GithubEventSource.md) |  | [optional] 
+**gitlab** | [**Hash&lt;String, IoArgoprojEventsV1alpha1GitlabEventSource&gt;**](IoArgoprojEventsV1alpha1GitlabEventSource.md) |  | [optional] 
+**hdfs** | [**Hash&lt;String, IoArgoprojEventsV1alpha1HDFSEventSource&gt;**](IoArgoprojEventsV1alpha1HDFSEventSource.md) |  | [optional] 
+**kafka** | [**Hash&lt;String, IoArgoprojEventsV1alpha1KafkaEventSource&gt;**](IoArgoprojEventsV1alpha1KafkaEventSource.md) |  | [optional] 
+**minio** | [**Hash&lt;String, IoArgoprojEventsV1alpha1S3Artifact&gt;**](IoArgoprojEventsV1alpha1S3Artifact.md) |  | [optional] 
+**mqtt** | [**Hash&lt;String, IoArgoprojEventsV1alpha1MQTTEventSource&gt;**](IoArgoprojEventsV1alpha1MQTTEventSource.md) |  | [optional] 
+**nats** | [**Hash&lt;String, IoArgoprojEventsV1alpha1NATSEventsSource&gt;**](IoArgoprojEventsV1alpha1NATSEventsSource.md) |  | [optional] 
+**nsq** | [**Hash&lt;String, IoArgoprojEventsV1alpha1NSQEventSource&gt;**](IoArgoprojEventsV1alpha1NSQEventSource.md) |  | [optional] 
+**pub_sub** | [**Hash&lt;String, IoArgoprojEventsV1alpha1PubSubEventSource&gt;**](IoArgoprojEventsV1alpha1PubSubEventSource.md) |  | [optional] 
+**pulsar** | [**Hash&lt;String, IoArgoprojEventsV1alpha1PulsarEventSource&gt;**](IoArgoprojEventsV1alpha1PulsarEventSource.md) |  | [optional] 
+**redis** | [**Hash&lt;String, IoArgoprojEventsV1alpha1RedisEventSource&gt;**](IoArgoprojEventsV1alpha1RedisEventSource.md) |  | [optional] 
+**redis_stream** | [**Hash&lt;String, IoArgoprojEventsV1alpha1RedisStreamEventSource&gt;**](IoArgoprojEventsV1alpha1RedisStreamEventSource.md) |  | [optional] 
+**replicas** | **Integer** |  | [optional] 
+**resource** | [**Hash&lt;String, IoArgoprojEventsV1alpha1ResourceEventSource&gt;**](IoArgoprojEventsV1alpha1ResourceEventSource.md) |  | [optional] 
+**service** | [**IoArgoprojEventsV1alpha1Service**](IoArgoprojEventsV1alpha1Service.md) |  | [optional] 
+**sftp** | [**Hash&lt;String, IoArgoprojEventsV1alpha1SFTPEventSource&gt;**](IoArgoprojEventsV1alpha1SFTPEventSource.md) |  | [optional] 
+**slack** | [**Hash&lt;String, IoArgoprojEventsV1alpha1SlackEventSource&gt;**](IoArgoprojEventsV1alpha1SlackEventSource.md) |  | [optional] 
+**sns** | [**Hash&lt;String, IoArgoprojEventsV1alpha1SNSEventSource&gt;**](IoArgoprojEventsV1alpha1SNSEventSource.md) |  | [optional] 
+**sqs** | [**Hash&lt;String, IoArgoprojEventsV1alpha1SQSEventSource&gt;**](IoArgoprojEventsV1alpha1SQSEventSource.md) |  | [optional] 
+**storage_grid** | [**Hash&lt;String, IoArgoprojEventsV1alpha1StorageGridEventSource&gt;**](IoArgoprojEventsV1alpha1StorageGridEventSource.md) |  | [optional] 
+**stripe** | [**Hash&lt;String, IoArgoprojEventsV1alpha1StripeEventSource&gt;**](IoArgoprojEventsV1alpha1StripeEventSource.md) |  | [optional] 
+**template** | [**IoArgoprojEventsV1alpha1Template**](IoArgoprojEventsV1alpha1Template.md) |  | [optional] 
+**webhook** | [**Hash&lt;String, IoArgoprojEventsV1alpha1WebhookEventSource&gt;**](IoArgoprojEventsV1alpha1WebhookEventSource.md) |  | [optional] 
+
+
