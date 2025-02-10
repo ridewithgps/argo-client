@@ -1,4 +1,4 @@
-# argo-workflows::StreamResultOfIoArgoprojWorkflowV1alpha1LogEntry
+# ArgoWorkflows::StreamResultOfIoArgoprojWorkflowV1alpha1LogEntry
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1ConfigMapPersistence
+# ArgoWorkflows::IoArgoprojEventsV1alpha1ConfigMapPersistence
 
 ## Properties
 Name | Type | Description | Notes

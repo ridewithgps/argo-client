@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowResubmitRequest
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowResubmitRequest
 
 ## Properties
 Name | Type | Description | Notes

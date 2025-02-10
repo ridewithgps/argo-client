@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1ArchiveStrategy
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1ArchiveStrategy
 
 ## Properties
 Name | Type | Description | Notes

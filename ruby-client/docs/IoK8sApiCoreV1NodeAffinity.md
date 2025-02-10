@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1NodeAffinity
+# ArgoWorkflows::IoK8sApiCoreV1NodeAffinity
 
 ## Properties
 Name | Type | Description | Notes

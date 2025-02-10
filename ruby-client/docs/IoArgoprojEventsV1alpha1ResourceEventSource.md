@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1ResourceEventSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1ResourceEventSource
 
 ## Properties
 Name | Type | Description | Notes

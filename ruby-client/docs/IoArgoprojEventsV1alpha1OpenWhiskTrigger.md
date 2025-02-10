@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1OpenWhiskTrigger
+# ArgoWorkflows::IoArgoprojEventsV1alpha1OpenWhiskTrigger
 
 ## Properties
 Name | Type | Description | Notes

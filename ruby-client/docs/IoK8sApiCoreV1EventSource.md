@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1EventSource
+# ArgoWorkflows::IoK8sApiCoreV1EventSource
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1ConfigMapKeySelector
+# ArgoWorkflows::IoK8sApiCoreV1ConfigMapKeySelector
 
 ## Properties
 Name | Type | Description | Notes

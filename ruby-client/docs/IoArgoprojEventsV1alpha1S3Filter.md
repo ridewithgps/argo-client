@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1S3Filter
+# ArgoWorkflows::IoArgoprojEventsV1alpha1S3Filter
 
 ## Properties
 Name | Type | Description | Notes

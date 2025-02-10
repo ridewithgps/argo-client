@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1Selector
+# ArgoWorkflows::IoArgoprojEventsV1alpha1Selector
 
 ## Properties
 Name | Type | Description | Notes

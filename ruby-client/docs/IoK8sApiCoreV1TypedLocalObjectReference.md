@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1TypedLocalObjectReference
+# ArgoWorkflows::IoK8sApiCoreV1TypedLocalObjectReference
 
 ## Properties
 Name | Type | Description | Notes

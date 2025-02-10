@@ -1,4 +1,4 @@
-# argo-workflows::InfoServiceApi
+# ArgoWorkflows::InfoServiceApi
 
 All URIs are relative to *http://localhost:2746*
 
@@ -18,24 +18,24 @@ Method | HTTP request | Description
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::InfoServiceApi.new
+api_instance = ArgoWorkflows::InfoServiceApi.new
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1CollectEventRequest.new # IoArgoprojWorkflowV1alpha1CollectEventRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1CollectEventRequest.new # IoArgoprojWorkflowV1alpha1CollectEventRequest | 
 
 
 begin
   result = api_instance.info_service_collect_event(body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling InfoServiceApi->info_service_collect_event: #{e}"
 end
 ```
@@ -69,21 +69,21 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::InfoServiceApi.new
+api_instance = ArgoWorkflows::InfoServiceApi.new
 
 begin
   result = api_instance.info_service_get_info
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling InfoServiceApi->info_service_get_info: #{e}"
 end
 ```
@@ -114,21 +114,21 @@ This endpoint does not need any parameter.
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::InfoServiceApi.new
+api_instance = ArgoWorkflows::InfoServiceApi.new
 
 begin
   result = api_instance.info_service_get_user_info
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling InfoServiceApi->info_service_get_user_info: #{e}"
 end
 ```
@@ -159,21 +159,21 @@ This endpoint does not need any parameter.
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::InfoServiceApi.new
+api_instance = ArgoWorkflows::InfoServiceApi.new
 
 begin
   result = api_instance.info_service_get_version
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling InfoServiceApi->info_service_get_version: #{e}"
 end
 ```

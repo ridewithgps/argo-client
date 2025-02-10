@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1AzureServiceBusEventSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1AzureServiceBusEventSource
 
 ## Properties
 Name | Type | Description | Notes

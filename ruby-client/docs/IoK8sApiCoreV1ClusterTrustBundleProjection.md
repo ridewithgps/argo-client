@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1ClusterTrustBundleProjection
+# ArgoWorkflows::IoK8sApiCoreV1ClusterTrustBundleProjection
 
 ## Properties
 Name | Type | Description | Notes

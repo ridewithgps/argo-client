@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1GithubAppCreds
+# ArgoWorkflows::IoArgoprojEventsV1alpha1GithubAppCreds
 
 ## Properties
 Name | Type | Description | Notes

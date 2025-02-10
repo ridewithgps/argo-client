@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1VsphereVirtualDiskVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1VsphereVirtualDiskVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

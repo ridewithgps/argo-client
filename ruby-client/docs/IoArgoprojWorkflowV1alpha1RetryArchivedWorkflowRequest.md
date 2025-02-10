@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1RetryArchivedWorkflowRequest
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1RetryArchivedWorkflowRequest
 
 ## Properties
 Name | Type | Description | Notes

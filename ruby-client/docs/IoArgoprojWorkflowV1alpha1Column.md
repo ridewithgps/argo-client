@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1Column
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1Column
 
 ## Properties
 Name | Type | Description | Notes

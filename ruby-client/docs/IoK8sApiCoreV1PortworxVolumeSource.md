@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1PortworxVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1PortworxVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

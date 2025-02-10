@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowStopRequest
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowStopRequest
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::CronWorkflowServiceApi
+# ArgoWorkflows::CronWorkflowServiceApi
 
 All URIs are relative to *http://localhost:2746*
 
@@ -22,26 +22,26 @@ Method | HTTP request | Description
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::CronWorkflowServiceApi.new
+api_instance = ArgoWorkflows::CronWorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1CreateCronWorkflowRequest.new # IoArgoprojWorkflowV1alpha1CreateCronWorkflowRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1CreateCronWorkflowRequest.new # IoArgoprojWorkflowV1alpha1CreateCronWorkflowRequest | 
 
 
 begin
   result = api_instance.cron_workflow_service_create_cron_workflow(namespace, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling CronWorkflowServiceApi->cron_workflow_service_create_cron_workflow: #{e}"
 end
 ```
@@ -76,16 +76,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::CronWorkflowServiceApi.new
+api_instance = ArgoWorkflows::CronWorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -103,7 +103,7 @@ opts = {
 begin
   result = api_instance.cron_workflow_service_delete_cron_workflow(namespace, name, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling CronWorkflowServiceApi->cron_workflow_service_delete_cron_workflow: #{e}"
 end
 ```
@@ -144,16 +144,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::CronWorkflowServiceApi.new
+api_instance = ArgoWorkflows::CronWorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -166,7 +166,7 @@ opts = {
 begin
   result = api_instance.cron_workflow_service_get_cron_workflow(namespace, name, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling CronWorkflowServiceApi->cron_workflow_service_get_cron_workflow: #{e}"
 end
 ```
@@ -202,26 +202,26 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::CronWorkflowServiceApi.new
+api_instance = ArgoWorkflows::CronWorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1LintCronWorkflowRequest.new # IoArgoprojWorkflowV1alpha1LintCronWorkflowRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1LintCronWorkflowRequest.new # IoArgoprojWorkflowV1alpha1LintCronWorkflowRequest | 
 
 
 begin
   result = api_instance.cron_workflow_service_lint_cron_workflow(namespace, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling CronWorkflowServiceApi->cron_workflow_service_lint_cron_workflow: #{e}"
 end
 ```
@@ -256,16 +256,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::CronWorkflowServiceApi.new
+api_instance = ArgoWorkflows::CronWorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -285,7 +285,7 @@ opts = {
 begin
   result = api_instance.cron_workflow_service_list_cron_workflows(namespace, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling CronWorkflowServiceApi->cron_workflow_service_list_cron_workflows: #{e}"
 end
 ```
@@ -329,28 +329,28 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::CronWorkflowServiceApi.new
+api_instance = ArgoWorkflows::CronWorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
 name = 'name_example' # String | 
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1CronWorkflowResumeRequest.new # IoArgoprojWorkflowV1alpha1CronWorkflowResumeRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1CronWorkflowResumeRequest.new # IoArgoprojWorkflowV1alpha1CronWorkflowResumeRequest | 
 
 
 begin
   result = api_instance.cron_workflow_service_resume_cron_workflow(namespace, name, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling CronWorkflowServiceApi->cron_workflow_service_resume_cron_workflow: #{e}"
 end
 ```
@@ -386,28 +386,28 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::CronWorkflowServiceApi.new
+api_instance = ArgoWorkflows::CronWorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
 name = 'name_example' # String | 
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1CronWorkflowSuspendRequest.new # IoArgoprojWorkflowV1alpha1CronWorkflowSuspendRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1CronWorkflowSuspendRequest.new # IoArgoprojWorkflowV1alpha1CronWorkflowSuspendRequest | 
 
 
 begin
   result = api_instance.cron_workflow_service_suspend_cron_workflow(namespace, name, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling CronWorkflowServiceApi->cron_workflow_service_suspend_cron_workflow: #{e}"
 end
 ```
@@ -443,28 +443,28 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::CronWorkflowServiceApi.new
+api_instance = ArgoWorkflows::CronWorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
 name = 'name_example' # String | DEPRECATED: This field is ignored.
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1UpdateCronWorkflowRequest.new # IoArgoprojWorkflowV1alpha1UpdateCronWorkflowRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1UpdateCronWorkflowRequest.new # IoArgoprojWorkflowV1alpha1UpdateCronWorkflowRequest | 
 
 
 begin
   result = api_instance.cron_workflow_service_update_cron_workflow(namespace, name, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling CronWorkflowServiceApi->cron_workflow_service_update_cron_workflow: #{e}"
 end
 ```

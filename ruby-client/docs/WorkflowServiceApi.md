@@ -1,4 +1,4 @@
-# argo-workflows::WorkflowServiceApi
+# ArgoWorkflows::WorkflowServiceApi
 
 All URIs are relative to *http://localhost:2746*
 
@@ -31,26 +31,26 @@ Method | HTTP request | Description
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::WorkflowServiceApi.new
+api_instance = ArgoWorkflows::WorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowCreateRequest.new # IoArgoprojWorkflowV1alpha1WorkflowCreateRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowCreateRequest.new # IoArgoprojWorkflowV1alpha1WorkflowCreateRequest | 
 
 
 begin
   result = api_instance.workflow_service_create_workflow(namespace, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling WorkflowServiceApi->workflow_service_create_workflow: #{e}"
 end
 ```
@@ -85,16 +85,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::WorkflowServiceApi.new
+api_instance = ArgoWorkflows::WorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -113,7 +113,7 @@ opts = {
 begin
   result = api_instance.workflow_service_delete_workflow(namespace, name, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling WorkflowServiceApi->workflow_service_delete_workflow: #{e}"
 end
 ```
@@ -155,16 +155,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::WorkflowServiceApi.new
+api_instance = ArgoWorkflows::WorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -178,7 +178,7 @@ opts = {
 begin
   result = api_instance.workflow_service_get_workflow(namespace, name, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling WorkflowServiceApi->workflow_service_get_workflow: #{e}"
 end
 ```
@@ -215,26 +215,26 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::WorkflowServiceApi.new
+api_instance = ArgoWorkflows::WorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowLintRequest.new # IoArgoprojWorkflowV1alpha1WorkflowLintRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowLintRequest.new # IoArgoprojWorkflowV1alpha1WorkflowLintRequest | 
 
 
 begin
   result = api_instance.workflow_service_lint_workflow(namespace, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling WorkflowServiceApi->workflow_service_lint_workflow: #{e}"
 end
 ```
@@ -269,16 +269,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::WorkflowServiceApi.new
+api_instance = ArgoWorkflows::WorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -300,7 +300,7 @@ opts = {
 begin
   result = api_instance.workflow_service_list_workflows(namespace, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling WorkflowServiceApi->workflow_service_list_workflows: #{e}"
 end
 ```
@@ -346,16 +346,16 @@ DEPRECATED: Cannot work via HTTP if podName is an empty string. Use WorkflowLogs
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::WorkflowServiceApi.new
+api_instance = ArgoWorkflows::WorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -382,7 +382,7 @@ begin
   #DEPRECATED: Cannot work via HTTP if podName is an empty string. Use WorkflowLogs.
   result = api_instance.workflow_service_pod_logs(namespace, name, pod_name, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling WorkflowServiceApi->workflow_service_pod_logs: #{e}"
 end
 ```
@@ -430,28 +430,28 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::WorkflowServiceApi.new
+api_instance = ArgoWorkflows::WorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
 name = 'name_example' # String | 
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowResubmitRequest.new # IoArgoprojWorkflowV1alpha1WorkflowResubmitRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowResubmitRequest.new # IoArgoprojWorkflowV1alpha1WorkflowResubmitRequest | 
 
 
 begin
   result = api_instance.workflow_service_resubmit_workflow(namespace, name, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling WorkflowServiceApi->workflow_service_resubmit_workflow: #{e}"
 end
 ```
@@ -487,28 +487,28 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::WorkflowServiceApi.new
+api_instance = ArgoWorkflows::WorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
 name = 'name_example' # String | 
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowResumeRequest.new # IoArgoprojWorkflowV1alpha1WorkflowResumeRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowResumeRequest.new # IoArgoprojWorkflowV1alpha1WorkflowResumeRequest | 
 
 
 begin
   result = api_instance.workflow_service_resume_workflow(namespace, name, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling WorkflowServiceApi->workflow_service_resume_workflow: #{e}"
 end
 ```
@@ -544,28 +544,28 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::WorkflowServiceApi.new
+api_instance = ArgoWorkflows::WorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
 name = 'name_example' # String | 
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowRetryRequest.new # IoArgoprojWorkflowV1alpha1WorkflowRetryRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowRetryRequest.new # IoArgoprojWorkflowV1alpha1WorkflowRetryRequest | 
 
 
 begin
   result = api_instance.workflow_service_retry_workflow(namespace, name, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling WorkflowServiceApi->workflow_service_retry_workflow: #{e}"
 end
 ```
@@ -601,28 +601,28 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::WorkflowServiceApi.new
+api_instance = ArgoWorkflows::WorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
 name = 'name_example' # String | 
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowSetRequest.new # IoArgoprojWorkflowV1alpha1WorkflowSetRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowSetRequest.new # IoArgoprojWorkflowV1alpha1WorkflowSetRequest | 
 
 
 begin
   result = api_instance.workflow_service_set_workflow(namespace, name, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling WorkflowServiceApi->workflow_service_set_workflow: #{e}"
 end
 ```
@@ -658,28 +658,28 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::WorkflowServiceApi.new
+api_instance = ArgoWorkflows::WorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
 name = 'name_example' # String | 
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowStopRequest.new # IoArgoprojWorkflowV1alpha1WorkflowStopRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowStopRequest.new # IoArgoprojWorkflowV1alpha1WorkflowStopRequest | 
 
 
 begin
   result = api_instance.workflow_service_stop_workflow(namespace, name, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling WorkflowServiceApi->workflow_service_stop_workflow: #{e}"
 end
 ```
@@ -715,26 +715,26 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::WorkflowServiceApi.new
+api_instance = ArgoWorkflows::WorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowSubmitRequest.new # IoArgoprojWorkflowV1alpha1WorkflowSubmitRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowSubmitRequest.new # IoArgoprojWorkflowV1alpha1WorkflowSubmitRequest | 
 
 
 begin
   result = api_instance.workflow_service_submit_workflow(namespace, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling WorkflowServiceApi->workflow_service_submit_workflow: #{e}"
 end
 ```
@@ -769,28 +769,28 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::WorkflowServiceApi.new
+api_instance = ArgoWorkflows::WorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
 name = 'name_example' # String | 
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowSuspendRequest.new # IoArgoprojWorkflowV1alpha1WorkflowSuspendRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowSuspendRequest.new # IoArgoprojWorkflowV1alpha1WorkflowSuspendRequest | 
 
 
 begin
   result = api_instance.workflow_service_suspend_workflow(namespace, name, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling WorkflowServiceApi->workflow_service_suspend_workflow: #{e}"
 end
 ```
@@ -826,28 +826,28 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::WorkflowServiceApi.new
+api_instance = ArgoWorkflows::WorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
 name = 'name_example' # String | 
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowTerminateRequest.new # IoArgoprojWorkflowV1alpha1WorkflowTerminateRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowTerminateRequest.new # IoArgoprojWorkflowV1alpha1WorkflowTerminateRequest | 
 
 
 begin
   result = api_instance.workflow_service_terminate_workflow(namespace, name, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling WorkflowServiceApi->workflow_service_terminate_workflow: #{e}"
 end
 ```
@@ -883,16 +883,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::WorkflowServiceApi.new
+api_instance = ArgoWorkflows::WorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -912,7 +912,7 @@ opts = {
 begin
   result = api_instance.workflow_service_watch_events(namespace, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling WorkflowServiceApi->workflow_service_watch_events: #{e}"
 end
 ```
@@ -956,16 +956,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::WorkflowServiceApi.new
+api_instance = ArgoWorkflows::WorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -986,7 +986,7 @@ opts = {
 begin
   result = api_instance.workflow_service_watch_workflows(namespace, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling WorkflowServiceApi->workflow_service_watch_workflows: #{e}"
 end
 ```
@@ -1031,16 +1031,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::WorkflowServiceApi.new
+api_instance = ArgoWorkflows::WorkflowServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -1065,7 +1065,7 @@ opts = {
 begin
   result = api_instance.workflow_service_workflow_logs(namespace, name, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling WorkflowServiceApi->workflow_service_workflow_logs: #{e}"
 end
 ```

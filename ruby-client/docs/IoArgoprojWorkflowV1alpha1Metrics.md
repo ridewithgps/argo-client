@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1Metrics
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1Metrics
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1ContainerSetTemplate
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1ContainerSetTemplate
 
 ## Properties
 Name | Type | Description | Notes

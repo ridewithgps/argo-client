@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1TransformationStep
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1TransformationStep
 
 ## Properties
 Name | Type | Description | Notes

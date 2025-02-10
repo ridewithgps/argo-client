@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1WatchPathConfig
+# ArgoWorkflows::IoArgoprojEventsV1alpha1WatchPathConfig
 
 ## Properties
 Name | Type | Description | Notes

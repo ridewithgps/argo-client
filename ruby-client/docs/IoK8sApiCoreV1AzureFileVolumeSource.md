@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1AzureFileVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1AzureFileVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

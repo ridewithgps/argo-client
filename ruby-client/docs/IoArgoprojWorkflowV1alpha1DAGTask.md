@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1DAGTask
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1DAGTask
 
 ## Properties
 Name | Type | Description | Notes

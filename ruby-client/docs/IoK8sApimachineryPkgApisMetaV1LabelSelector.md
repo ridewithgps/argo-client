@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApimachineryPkgApisMetaV1LabelSelector
+# ArgoWorkflows::IoK8sApimachineryPkgApisMetaV1LabelSelector
 
 ## Properties
 Name | Type | Description | Notes

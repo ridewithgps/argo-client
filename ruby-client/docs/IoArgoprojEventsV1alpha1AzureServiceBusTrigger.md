@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1AzureServiceBusTrigger
+# ArgoWorkflows::IoArgoprojEventsV1alpha1AzureServiceBusTrigger
 
 ## Properties
 Name | Type | Description | Notes

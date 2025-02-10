@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1TriggerParameterSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1TriggerParameterSource
 
 ## Properties
 Name | Type | Description | Notes

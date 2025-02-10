@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1AMQPConsumeConfig
+# ArgoWorkflows::IoArgoprojEventsV1alpha1AMQPConsumeConfig
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1ImageVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1ImageVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

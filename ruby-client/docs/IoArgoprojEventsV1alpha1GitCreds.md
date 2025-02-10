@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1GitCreds
+# ArgoWorkflows::IoArgoprojEventsV1alpha1GitCreds
 
 ## Properties
 Name | Type | Description | Notes

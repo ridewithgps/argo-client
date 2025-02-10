@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1RetryAffinity
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1RetryAffinity
 
 ## Properties
 Name | Type | Description | Notes

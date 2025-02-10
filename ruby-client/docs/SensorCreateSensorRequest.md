@@ -1,4 +1,4 @@
-# argo-workflows::SensorCreateSensorRequest
+# ArgoWorkflows::SensorCreateSensorRequest
 
 ## Properties
 Name | Type | Description | Notes

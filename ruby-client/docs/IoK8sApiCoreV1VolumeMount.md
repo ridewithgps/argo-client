@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1VolumeMount
+# ArgoWorkflows::IoK8sApiCoreV1VolumeMount
 
 ## Properties
 Name | Type | Description | Notes

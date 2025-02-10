@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1FlexVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1FlexVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

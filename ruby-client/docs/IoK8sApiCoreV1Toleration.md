@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1Toleration
+# ArgoWorkflows::IoK8sApiCoreV1Toleration
 
 ## Properties
 Name | Type | Description | Notes

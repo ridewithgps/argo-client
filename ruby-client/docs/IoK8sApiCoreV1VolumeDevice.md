@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1VolumeDevice
+# ArgoWorkflows::IoK8sApiCoreV1VolumeDevice
 
 ## Properties
 Name | Type | Description | Notes

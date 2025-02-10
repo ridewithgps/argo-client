@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1SlackSender
+# ArgoWorkflows::IoArgoprojEventsV1alpha1SlackSender
 
 ## Properties
 Name | Type | Description | Notes

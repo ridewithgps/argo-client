@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1CreateS3BucketOptions
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1CreateS3BucketOptions
 
 ## Properties
 Name | Type | Description | Notes

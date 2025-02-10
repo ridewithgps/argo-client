@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1HTTPBodySource
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1HTTPBodySource
 
 ## Properties
 Name | Type | Description | Notes

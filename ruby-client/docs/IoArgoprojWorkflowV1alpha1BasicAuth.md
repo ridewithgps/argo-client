@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1BasicAuth
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1BasicAuth
 
 ## Properties
 Name | Type | Description | Notes

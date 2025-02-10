@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1ManifestFrom
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1ManifestFrom
 
 ## Properties
 Name | Type | Description | Notes

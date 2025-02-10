@@ -1,4 +1,4 @@
-# argo-workflows::StreamResultOfIoK8sApiCoreV1Event
+# ArgoWorkflows::StreamResultOfIoK8sApiCoreV1Event
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1StorageGridFilter
+# ArgoWorkflows::IoArgoprojEventsV1alpha1StorageGridFilter
 
 ## Properties
 Name | Type | Description | Notes

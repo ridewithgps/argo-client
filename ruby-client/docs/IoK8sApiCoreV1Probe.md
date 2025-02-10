@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1Probe
+# ArgoWorkflows::IoK8sApiCoreV1Probe
 
 ## Properties
 Name | Type | Description | Notes

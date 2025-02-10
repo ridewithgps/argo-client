@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowList
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowList
 
 ## Properties
 Name | Type | Description | Notes

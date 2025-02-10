@@ -12,14 +12,14 @@ Swagger Codegen version: 2.4.43
 
 require 'spec_helper'
 
-describe argo-workflows::Configuration do
-  let(:config) { argo-workflows::Configuration.default }
+describe ArgoWorkflows::Configuration do
+  let(:config) { ArgoWorkflows::Configuration.default }
 
   before(:each) do
     # uncomment below to setup host and base_path
     # require 'URI'
     # uri = URI.parse("http://localhost:2746")
-    # argo-workflows.configure do |c|
+    # ArgoWorkflows.configure do |c|
     #   c.host = uri.host
     #   c.base_path = uri.path
     # end

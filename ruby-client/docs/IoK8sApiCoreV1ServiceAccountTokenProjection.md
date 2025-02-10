@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1ServiceAccountTokenProjection
+# ArgoWorkflows::IoK8sApiCoreV1ServiceAccountTokenProjection
 
 ## Properties
 Name | Type | Description | Notes

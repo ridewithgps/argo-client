@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1SemaphoreStatus
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1SemaphoreStatus
 
 ## Properties
 Name | Type | Description | Notes

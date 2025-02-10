@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1DAGTemplate
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1DAGTemplate
 
 ## Properties
 Name | Type | Description | Notes

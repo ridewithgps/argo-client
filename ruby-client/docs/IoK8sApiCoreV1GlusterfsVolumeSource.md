@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1GlusterfsVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1GlusterfsVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

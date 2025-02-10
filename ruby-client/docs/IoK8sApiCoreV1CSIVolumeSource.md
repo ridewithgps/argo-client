@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1CSIVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1CSIVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

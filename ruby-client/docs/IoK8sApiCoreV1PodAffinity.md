@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1PodAffinity
+# ArgoWorkflows::IoK8sApiCoreV1PodAffinity
 
 ## Properties
 Name | Type | Description | Notes

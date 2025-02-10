@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1PersistentVolumeClaimTemplate
+# ArgoWorkflows::IoK8sApiCoreV1PersistentVolumeClaimTemplate
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowWatchEvent
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowWatchEvent
 
 ## Properties
 Name | Type | Description | Notes

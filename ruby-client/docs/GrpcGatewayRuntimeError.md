@@ -1,4 +1,4 @@
-# argo-workflows::GrpcGatewayRuntimeError
+# ArgoWorkflows::GrpcGatewayRuntimeError
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::GoogleProtobufAny
+# ArgoWorkflows::GoogleProtobufAny
 
 ## Properties
 Name | Type | Description | Notes

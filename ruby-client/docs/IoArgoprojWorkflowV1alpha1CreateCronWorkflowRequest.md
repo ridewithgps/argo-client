@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1CreateCronWorkflowRequest
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1CreateCronWorkflowRequest
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1Capabilities
+# ArgoWorkflows::IoK8sApiCoreV1Capabilities
 
 ## Properties
 Name | Type | Description | Notes

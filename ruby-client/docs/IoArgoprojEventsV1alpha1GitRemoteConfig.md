@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1GitRemoteConfig
+# ArgoWorkflows::IoArgoprojEventsV1alpha1GitRemoteConfig
 
 ## Properties
 Name | Type | Description | Notes

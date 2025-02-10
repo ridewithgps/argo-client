@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1ObjectFieldSelector
+# ArgoWorkflows::IoK8sApiCoreV1ObjectFieldSelector
 
 ## Properties
 Name | Type | Description | Notes

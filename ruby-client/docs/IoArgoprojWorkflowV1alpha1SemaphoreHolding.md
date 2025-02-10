@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1SemaphoreHolding
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1SemaphoreHolding
 
 ## Properties
 Name | Type | Description | Notes

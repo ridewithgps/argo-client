@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1StorageOSVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1StorageOSVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

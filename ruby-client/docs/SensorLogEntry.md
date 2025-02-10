@@ -1,4 +1,4 @@
-# argo-workflows::SensorLogEntry
+# ArgoWorkflows::SensorLogEntry
 
 ## Properties
 Name | Type | Description | Notes

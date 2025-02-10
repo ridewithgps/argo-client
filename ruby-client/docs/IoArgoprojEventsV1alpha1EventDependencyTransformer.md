@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1EventDependencyTransformer
+# ArgoWorkflows::IoArgoprojEventsV1alpha1EventDependencyTransformer
 
 ## Properties
 Name | Type | Description | Notes

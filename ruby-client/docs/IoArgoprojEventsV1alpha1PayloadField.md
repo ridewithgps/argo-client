@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1PayloadField
+# ArgoWorkflows::IoArgoprojEventsV1alpha1PayloadField
 
 ## Properties
 Name | Type | Description | Notes

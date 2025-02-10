@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1Mutex
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1Mutex
 
 ## Properties
 Name | Type | Description | Notes

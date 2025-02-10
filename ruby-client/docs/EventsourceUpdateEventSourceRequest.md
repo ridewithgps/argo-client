@@ -1,4 +1,4 @@
-# argo-workflows::EventsourceUpdateEventSourceRequest
+# ArgoWorkflows::EventsourceUpdateEventSourceRequest
 
 ## Properties
 Name | Type | Description | Notes

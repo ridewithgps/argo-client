@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1CalendarEventSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1CalendarEventSource
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1GRPCAction
+# ArgoWorkflows::IoK8sApiCoreV1GRPCAction
 
 ## Properties
 Name | Type | Description | Notes

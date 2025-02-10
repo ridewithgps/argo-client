@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1SuspendTemplate
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1SuspendTemplate
 
 ## Properties
 Name | Type | Description | Notes

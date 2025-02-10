@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1Backoff
+# ArgoWorkflows::IoArgoprojEventsV1alpha1Backoff
 
 ## Properties
 Name | Type | Description | Notes

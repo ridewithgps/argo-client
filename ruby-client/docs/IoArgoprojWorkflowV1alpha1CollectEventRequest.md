@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1CollectEventRequest
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1CollectEventRequest
 
 ## Properties
 Name | Type | Description | Notes

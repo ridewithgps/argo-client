@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1ArtifactLocation
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1ArtifactLocation
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1QuobyteVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1QuobyteVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1ArtifactRepositoryRefStatus
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1ArtifactRepositoryRefStatus
 
 ## Properties
 Name | Type | Description | Notes

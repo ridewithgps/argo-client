@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1KafkaTrigger
+# ArgoWorkflows::IoArgoprojEventsV1alpha1KafkaTrigger
 
 ## Properties
 Name | Type | Description | Notes

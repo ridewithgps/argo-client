@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1AWSLambdaTrigger
+# ArgoWorkflows::IoArgoprojEventsV1alpha1AWSLambdaTrigger
 
 ## Properties
 Name | Type | Description | Notes

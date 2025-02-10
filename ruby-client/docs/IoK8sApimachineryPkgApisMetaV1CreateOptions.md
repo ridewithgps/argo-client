@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApimachineryPkgApisMetaV1CreateOptions
+# ArgoWorkflows::IoK8sApimachineryPkgApisMetaV1CreateOptions
 
 ## Properties
 Name | Type | Description | Notes

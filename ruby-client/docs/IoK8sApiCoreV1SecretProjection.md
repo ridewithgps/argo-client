@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1SecretProjection
+# ArgoWorkflows::IoK8sApiCoreV1SecretProjection
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1LabelValues
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1LabelValues
 
 ## Properties
 Name | Type | Description | Notes

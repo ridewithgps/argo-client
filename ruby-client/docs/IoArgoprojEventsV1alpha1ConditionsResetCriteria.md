@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1ConditionsResetCriteria
+# ArgoWorkflows::IoArgoprojEventsV1alpha1ConditionsResetCriteria
 
 ## Properties
 Name | Type | Description | Notes

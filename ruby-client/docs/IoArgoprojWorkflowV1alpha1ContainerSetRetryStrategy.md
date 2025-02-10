@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1ContainerSetRetryStrategy
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1ContainerSetRetryStrategy
 
 ## Properties
 Name | Type | Description | Notes

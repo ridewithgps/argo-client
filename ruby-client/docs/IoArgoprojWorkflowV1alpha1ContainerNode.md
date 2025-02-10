@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1ContainerNode
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1ContainerNode
 
 ## Properties
 Name | Type | Description | Notes

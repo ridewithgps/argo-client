@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1AWSElasticBlockStoreVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1AWSElasticBlockStoreVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

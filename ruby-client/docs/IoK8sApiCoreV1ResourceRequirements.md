@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1ResourceRequirements
+# ArgoWorkflows::IoK8sApiCoreV1ResourceRequirements
 
 ## Properties
 Name | Type | Description | Notes

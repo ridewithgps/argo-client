@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1InfoResponse
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1InfoResponse
 
 ## Properties
 Name | Type | Description | Notes

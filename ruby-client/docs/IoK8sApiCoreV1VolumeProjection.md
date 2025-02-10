@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1VolumeProjection
+# ArgoWorkflows::IoK8sApiCoreV1VolumeProjection
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1PodDNSConfigOption
+# ArgoWorkflows::IoK8sApiCoreV1PodDNSConfigOption
 
 ## Properties
 Name | Type | Description | Notes

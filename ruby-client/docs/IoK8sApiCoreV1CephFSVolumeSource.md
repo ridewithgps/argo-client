@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1CephFSVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1CephFSVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

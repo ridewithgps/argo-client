@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1NodeSelector
+# ArgoWorkflows::IoK8sApiCoreV1NodeSelector
 
 ## Properties
 Name | Type | Description | Notes

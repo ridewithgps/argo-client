@@ -1,10 +1,10 @@
 # How to generate this client
 
 In order to re-generate this client and sync it up with the current swagger spec, use:
-`./generate.sh`.
+`ruby generate.rb`.
 
 
-Generator config options from `java -jar modules/swagger-codegen-cli/target/swagger-codegen-cli.jar config-help -l ruby` 
+Generator config options from `java -jar modules/swagger-codegen-cli/target/swagger-codegen-cli.jar config-help -l ruby`
 
 CONFIG OPTIONS
 	sortParamsByRequiredFlag
@@ -48,4 +48,3 @@ CONFIG OPTIONS
 
 	hideGenerationTimestamp
 	    Hides the generation timestamp when files are generated. (Default: true)
-

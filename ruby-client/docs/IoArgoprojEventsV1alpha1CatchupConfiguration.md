@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1CatchupConfiguration
+# ArgoWorkflows::IoArgoprojEventsV1alpha1CatchupConfiguration
 
 ## Properties
 Name | Type | Description | Notes

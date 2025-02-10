@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1HDFSEventSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1HDFSEventSource
 
 ## Properties
 Name | Type | Description | Notes

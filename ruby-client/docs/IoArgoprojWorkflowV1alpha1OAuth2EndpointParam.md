@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1OAuth2EndpointParam
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1OAuth2EndpointParam
 
 ## Properties
 Name | Type | Description | Notes

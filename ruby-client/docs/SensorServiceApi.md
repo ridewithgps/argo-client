@@ -1,4 +1,4 @@
-# argo-workflows::SensorServiceApi
+# ArgoWorkflows::SensorServiceApi
 
 All URIs are relative to *http://localhost:2746*
 
@@ -21,26 +21,26 @@ Method | HTTP request | Description
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::SensorServiceApi.new
+api_instance = ArgoWorkflows::SensorServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
-body = argo-workflows::SensorCreateSensorRequest.new # SensorCreateSensorRequest | 
+body = ArgoWorkflows::SensorCreateSensorRequest.new # SensorCreateSensorRequest | 
 
 
 begin
   result = api_instance.sensor_service_create_sensor(namespace, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling SensorServiceApi->sensor_service_create_sensor: #{e}"
 end
 ```
@@ -75,16 +75,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::SensorServiceApi.new
+api_instance = ArgoWorkflows::SensorServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -102,7 +102,7 @@ opts = {
 begin
   result = api_instance.sensor_service_delete_sensor(namespace, name, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling SensorServiceApi->sensor_service_delete_sensor: #{e}"
 end
 ```
@@ -143,16 +143,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::SensorServiceApi.new
+api_instance = ArgoWorkflows::SensorServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -165,7 +165,7 @@ opts = {
 begin
   result = api_instance.sensor_service_get_sensor(namespace, name, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling SensorServiceApi->sensor_service_get_sensor: #{e}"
 end
 ```
@@ -201,16 +201,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::SensorServiceApi.new
+api_instance = ArgoWorkflows::SensorServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -230,7 +230,7 @@ opts = {
 begin
   result = api_instance.sensor_service_list_sensors(namespace, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling SensorServiceApi->sensor_service_list_sensors: #{e}"
 end
 ```
@@ -274,16 +274,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::SensorServiceApi.new
+api_instance = ArgoWorkflows::SensorServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -306,7 +306,7 @@ opts = {
 begin
   result = api_instance.sensor_service_sensors_logs(namespace, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling SensorServiceApi->sensor_service_sensors_logs: #{e}"
 end
 ```
@@ -353,28 +353,28 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::SensorServiceApi.new
+api_instance = ArgoWorkflows::SensorServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
 name = 'name_example' # String | 
 
-body = argo-workflows::SensorUpdateSensorRequest.new # SensorUpdateSensorRequest | 
+body = ArgoWorkflows::SensorUpdateSensorRequest.new # SensorUpdateSensorRequest | 
 
 
 begin
   result = api_instance.sensor_service_update_sensor(namespace, name, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling SensorServiceApi->sensor_service_update_sensor: #{e}"
 end
 ```
@@ -410,16 +410,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::SensorServiceApi.new
+api_instance = ArgoWorkflows::SensorServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -439,7 +439,7 @@ opts = {
 begin
   result = api_instance.sensor_service_watch_sensors(namespace, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling SensorServiceApi->sensor_service_watch_sensors: #{e}"
 end
 ```

@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1EventPersistence
+# ArgoWorkflows::IoArgoprojEventsV1alpha1EventPersistence
 
 ## Properties
 Name | Type | Description | Notes

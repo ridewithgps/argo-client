@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1ServicePort
+# ArgoWorkflows::IoK8sApiCoreV1ServicePort
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::SensorUpdateSensorRequest
+# ArgoWorkflows::SensorUpdateSensorRequest
 
 ## Properties
 Name | Type | Description | Notes

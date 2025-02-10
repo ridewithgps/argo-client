@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1Sysctl
+# ArgoWorkflows::IoK8sApiCoreV1Sysctl
 
 ## Properties
 Name | Type | Description | Notes

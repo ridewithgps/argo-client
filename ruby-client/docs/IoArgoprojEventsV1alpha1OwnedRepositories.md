@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1OwnedRepositories
+# ArgoWorkflows::IoArgoprojEventsV1alpha1OwnedRepositories
 
 ## Properties
 Name | Type | Description | Notes
