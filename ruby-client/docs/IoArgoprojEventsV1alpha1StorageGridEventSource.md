@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1StorageGridEventSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1StorageGridEventSource
 
 ## Properties
 Name | Type | Description | Notes

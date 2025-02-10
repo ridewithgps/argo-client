@@ -1,4 +1,4 @@
-# argo-workflows::EventsourceLogEntry
+# ArgoWorkflows::EventsourceLogEntry
 
 ## Properties
 Name | Type | Description | Notes

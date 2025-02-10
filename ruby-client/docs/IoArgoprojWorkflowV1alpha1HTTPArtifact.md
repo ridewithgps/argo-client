@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1HTTPArtifact
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1HTTPArtifact
 
 ## Properties
 Name | Type | Description | Notes

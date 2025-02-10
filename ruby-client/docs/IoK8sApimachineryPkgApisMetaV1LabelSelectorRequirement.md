@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApimachineryPkgApisMetaV1LabelSelectorRequirement
+# ArgoWorkflows::IoK8sApimachineryPkgApisMetaV1LabelSelectorRequirement
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1ResourceFilter
+# ArgoWorkflows::IoArgoprojEventsV1alpha1ResourceFilter
 
 ## Properties
 Name | Type | Description | Notes

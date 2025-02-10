@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1SELinuxOptions
+# ArgoWorkflows::IoK8sApiCoreV1SELinuxOptions
 
 ## Properties
 Name | Type | Description | Notes

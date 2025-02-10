@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1SecretKeySelector
+# ArgoWorkflows::IoK8sApiCoreV1SecretKeySelector
 
 ## Properties
 Name | Type | Description | Notes

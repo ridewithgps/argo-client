@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1Cache
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1Cache
 
 ## Properties
 Name | Type | Description | Notes

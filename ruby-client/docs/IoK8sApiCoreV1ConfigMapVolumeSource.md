@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1ConfigMapVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1ConfigMapVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

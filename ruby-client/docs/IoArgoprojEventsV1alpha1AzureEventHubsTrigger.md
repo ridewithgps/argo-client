@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1AzureEventHubsTrigger
+# ArgoWorkflows::IoArgoprojEventsV1alpha1AzureEventHubsTrigger
 
 ## Properties
 Name | Type | Description | Notes

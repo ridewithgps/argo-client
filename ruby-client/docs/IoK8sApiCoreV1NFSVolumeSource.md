@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1NFSVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1NFSVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

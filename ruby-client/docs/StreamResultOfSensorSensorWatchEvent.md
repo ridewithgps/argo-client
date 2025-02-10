@@ -1,4 +1,4 @@
-# argo-workflows::StreamResultOfSensorSensorWatchEvent
+# ArgoWorkflows::StreamResultOfSensorSensorWatchEvent
 
 ## Properties
 Name | Type | Description | Notes

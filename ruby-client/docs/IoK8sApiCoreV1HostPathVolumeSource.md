@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1HostPathVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1HostPathVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

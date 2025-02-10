@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1KeyToPath
+# ArgoWorkflows::IoK8sApiCoreV1KeyToPath
 
 ## Properties
 Name | Type | Description | Notes

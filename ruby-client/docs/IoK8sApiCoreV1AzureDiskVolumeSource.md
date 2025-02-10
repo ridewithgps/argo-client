@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1AzureDiskVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1AzureDiskVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1Condition
+# ArgoWorkflows::IoArgoprojEventsV1alpha1Condition
 
 ## Properties
 Name | Type | Description | Notes

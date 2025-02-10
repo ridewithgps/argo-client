@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1LifecycleHandler
+# ArgoWorkflows::IoK8sApiCoreV1LifecycleHandler
 
 ## Properties
 Name | Type | Description | Notes

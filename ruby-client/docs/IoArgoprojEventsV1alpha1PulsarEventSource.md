@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1PulsarEventSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1PulsarEventSource
 
 ## Properties
 Name | Type | Description | Notes

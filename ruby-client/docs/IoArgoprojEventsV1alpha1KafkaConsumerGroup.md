@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1KafkaConsumerGroup
+# ArgoWorkflows::IoArgoprojEventsV1alpha1KafkaConsumerGroup
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1SASLConfig
+# ArgoWorkflows::IoArgoprojEventsV1alpha1SASLConfig
 
 ## Properties
 Name | Type | Description | Notes

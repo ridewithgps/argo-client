@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1K8SResourcePolicy
+# ArgoWorkflows::IoArgoprojEventsV1alpha1K8SResourcePolicy
 
 ## Properties
 Name | Type | Description | Notes

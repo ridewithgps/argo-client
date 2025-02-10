@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1CronWorkflowSuspendRequest
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1CronWorkflowSuspendRequest
 
 ## Properties
 Name | Type | Description | Notes

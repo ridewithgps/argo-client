@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1SlackTrigger
+# ArgoWorkflows::IoArgoprojEventsV1alpha1SlackTrigger
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1StripeEventSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1StripeEventSource
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1Metadata
+# ArgoWorkflows::IoArgoprojEventsV1alpha1Metadata
 
 ## Properties
 Name | Type | Description | Notes

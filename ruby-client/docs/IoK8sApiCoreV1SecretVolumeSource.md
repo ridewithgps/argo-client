@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1SecretVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1SecretVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

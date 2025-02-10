@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApimachineryPkgApisMetaV1GroupVersionResource
+# ArgoWorkflows::IoK8sApimachineryPkgApisMetaV1GroupVersionResource
 
 ## Properties
 Name | Type | Description | Notes

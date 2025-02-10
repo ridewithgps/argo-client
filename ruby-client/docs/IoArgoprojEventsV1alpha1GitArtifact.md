@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1GitArtifact
+# ArgoWorkflows::IoArgoprojEventsV1alpha1GitArtifact
 
 ## Properties
 Name | Type | Description | Notes

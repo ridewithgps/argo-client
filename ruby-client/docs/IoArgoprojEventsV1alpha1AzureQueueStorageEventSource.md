@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1AzureQueueStorageEventSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1AzureQueueStorageEventSource
 
 ## Properties
 Name | Type | Description | Notes

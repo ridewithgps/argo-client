@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowMetadata
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowMetadata
 
 ## Properties
 Name | Type | Description | Notes

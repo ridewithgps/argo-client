@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1DownwardAPIVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1DownwardAPIVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

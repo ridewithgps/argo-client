@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1Synchronization
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1Synchronization
 
 ## Properties
 Name | Type | Description | Notes

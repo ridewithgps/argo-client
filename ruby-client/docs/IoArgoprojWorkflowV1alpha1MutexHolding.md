@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1MutexHolding
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1MutexHolding
 
 ## Properties
 Name | Type | Description | Notes

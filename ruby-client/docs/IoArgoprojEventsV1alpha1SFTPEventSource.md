@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1SFTPEventSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1SFTPEventSource
 
 ## Properties
 Name | Type | Description | Notes

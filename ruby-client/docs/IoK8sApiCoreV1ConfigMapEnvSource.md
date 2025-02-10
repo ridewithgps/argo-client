@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1ConfigMapEnvSource
+# ArgoWorkflows::IoK8sApiCoreV1ConfigMapEnvSource
 
 ## Properties
 Name | Type | Description | Notes

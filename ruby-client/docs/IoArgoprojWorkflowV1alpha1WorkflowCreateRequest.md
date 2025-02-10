@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowCreateRequest
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowCreateRequest
 
 ## Properties
 Name | Type | Description | Notes

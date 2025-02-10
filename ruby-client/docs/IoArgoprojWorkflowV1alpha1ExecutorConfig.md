@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1ExecutorConfig
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1ExecutorConfig
 
 ## Properties
 Name | Type | Description | Notes

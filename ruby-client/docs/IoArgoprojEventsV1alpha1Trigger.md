@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1Trigger
+# ArgoWorkflows::IoArgoprojEventsV1alpha1Trigger
 
 ## Properties
 Name | Type | Description | Notes

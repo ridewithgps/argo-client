@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1PubSubEventSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1PubSubEventSource
 
 ## Properties
 Name | Type | Description | Notes

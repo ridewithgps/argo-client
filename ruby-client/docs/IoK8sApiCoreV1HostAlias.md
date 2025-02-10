@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1HostAlias
+# ArgoWorkflows::IoK8sApiCoreV1HostAlias
 
 ## Properties
 Name | Type | Description | Notes

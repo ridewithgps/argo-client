@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1RateLimit
+# ArgoWorkflows::IoArgoprojEventsV1alpha1RateLimit
 
 ## Properties
 Name | Type | Description | Notes

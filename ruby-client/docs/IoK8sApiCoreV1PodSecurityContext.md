@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1PodSecurityContext
+# ArgoWorkflows::IoK8sApiCoreV1PodSecurityContext
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::ArtifactServiceApi
+# ArgoWorkflows::ArtifactServiceApi
 
 All URIs are relative to *http://localhost:2746*
 
@@ -19,16 +19,16 @@ Get an artifact.
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::ArtifactServiceApi.new
+api_instance = ArgoWorkflows::ArtifactServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -47,7 +47,7 @@ begin
   #Get an artifact.
   result = api_instance.artifact_service_get_artifact_file(namespace, id_discriminator, id, node_id, artifact_name, artifact_discriminator)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling ArtifactServiceApi->artifact_service_get_artifact_file: #{e}"
 end
 ```
@@ -86,16 +86,16 @@ Get an input artifact.
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::ArtifactServiceApi.new
+api_instance = ArgoWorkflows::ArtifactServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -110,7 +110,7 @@ begin
   #Get an input artifact.
   result = api_instance.artifact_service_get_input_artifact(namespace, name, node_id, artifact_name)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling ArtifactServiceApi->artifact_service_get_input_artifact: #{e}"
 end
 ```
@@ -147,16 +147,16 @@ Get an input artifact by UID.
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::ArtifactServiceApi.new
+api_instance = ArgoWorkflows::ArtifactServiceApi.new
 
 uid = 'uid_example' # String | 
 
@@ -169,7 +169,7 @@ begin
   #Get an input artifact by UID.
   result = api_instance.artifact_service_get_input_artifact_by_uid(uid, node_id, artifact_name)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling ArtifactServiceApi->artifact_service_get_input_artifact_by_uid: #{e}"
 end
 ```
@@ -205,16 +205,16 @@ Get an output artifact.
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::ArtifactServiceApi.new
+api_instance = ArgoWorkflows::ArtifactServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -229,7 +229,7 @@ begin
   #Get an output artifact.
   result = api_instance.artifact_service_get_output_artifact(namespace, name, node_id, artifact_name)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling ArtifactServiceApi->artifact_service_get_output_artifact: #{e}"
 end
 ```
@@ -266,16 +266,16 @@ Get an output artifact by UID.
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::ArtifactServiceApi.new
+api_instance = ArgoWorkflows::ArtifactServiceApi.new
 
 uid = 'uid_example' # String | 
 
@@ -288,7 +288,7 @@ begin
   #Get an output artifact by UID.
   result = api_instance.artifact_service_get_output_artifact_by_uid(uid, node_id, artifact_name)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling ArtifactServiceApi->artifact_service_get_output_artifact_by_uid: #{e}"
 end
 ```

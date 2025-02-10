@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApimachineryPkgApisMetaV1OwnerReference
+# ArgoWorkflows::IoK8sApimachineryPkgApisMetaV1OwnerReference
 
 ## Properties
 Name | Type | Description | Notes

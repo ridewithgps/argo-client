@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1PreferredSchedulingTerm
+# ArgoWorkflows::IoK8sApiCoreV1PreferredSchedulingTerm
 
 ## Properties
 Name | Type | Description | Notes

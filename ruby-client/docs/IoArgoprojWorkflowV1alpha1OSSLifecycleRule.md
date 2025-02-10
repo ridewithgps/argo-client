@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1OSSLifecycleRule
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1OSSLifecycleRule
 
 ## Properties
 Name | Type | Description | Notes

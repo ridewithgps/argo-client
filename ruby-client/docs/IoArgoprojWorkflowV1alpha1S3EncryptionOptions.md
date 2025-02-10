@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1S3EncryptionOptions
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1S3EncryptionOptions
 
 ## Properties
 Name | Type | Description | Notes

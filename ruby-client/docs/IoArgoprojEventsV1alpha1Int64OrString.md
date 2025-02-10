@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1Int64OrString
+# ArgoWorkflows::IoArgoprojEventsV1alpha1Int64OrString
 
 ## Properties
 Name | Type | Description | Notes

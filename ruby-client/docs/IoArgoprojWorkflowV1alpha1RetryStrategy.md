@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1RetryStrategy
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1RetryStrategy
 
 ## Properties
 Name | Type | Description | Notes

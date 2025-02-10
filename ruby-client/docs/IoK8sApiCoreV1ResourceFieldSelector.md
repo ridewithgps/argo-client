@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1ResourceFieldSelector
+# ArgoWorkflows::IoK8sApiCoreV1ResourceFieldSelector
 
 ## Properties
 Name | Type | Description | Notes

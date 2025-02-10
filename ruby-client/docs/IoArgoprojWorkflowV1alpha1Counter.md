@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1Counter
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1Counter
 
 ## Properties
 Name | Type | Description | Notes

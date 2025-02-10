@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1AMQPEventSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1AMQPEventSource
 
 ## Properties
 Name | Type | Description | Notes

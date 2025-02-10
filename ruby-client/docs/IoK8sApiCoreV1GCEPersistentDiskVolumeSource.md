@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1GCEPersistentDiskVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1GCEPersistentDiskVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

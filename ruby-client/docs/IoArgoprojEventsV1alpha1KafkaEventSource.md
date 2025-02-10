@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1KafkaEventSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1KafkaEventSource
 
 ## Properties
 Name | Type | Description | Notes

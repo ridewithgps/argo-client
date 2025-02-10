@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1EventDependencyFilter
+# ArgoWorkflows::IoArgoprojEventsV1alpha1EventDependencyFilter
 
 ## Properties
 Name | Type | Description | Notes

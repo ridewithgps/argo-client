@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1SlackThread
+# ArgoWorkflows::IoArgoprojEventsV1alpha1SlackThread
 
 ## Properties
 Name | Type | Description | Notes

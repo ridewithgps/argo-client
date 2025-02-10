@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1PersistentVolumeClaimCondition
+# ArgoWorkflows::IoK8sApiCoreV1PersistentVolumeClaimCondition
 
 ## Properties
 Name | Type | Description | Notes

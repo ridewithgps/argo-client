@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1TimeFilter
+# ArgoWorkflows::IoArgoprojEventsV1alpha1TimeFilter
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1TCPSocketAction
+# ArgoWorkflows::IoK8sApiCoreV1TCPSocketAction
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1SleepAction
+# ArgoWorkflows::IoK8sApiCoreV1SleepAction
 
 ## Properties
 Name | Type | Description | Notes

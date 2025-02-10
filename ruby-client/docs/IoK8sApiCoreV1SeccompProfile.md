@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1SeccompProfile
+# ArgoWorkflows::IoK8sApiCoreV1SeccompProfile
 
 ## Properties
 Name | Type | Description | Notes

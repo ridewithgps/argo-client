@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1RedisEventSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1RedisEventSource
 
 ## Properties
 Name | Type | Description | Notes

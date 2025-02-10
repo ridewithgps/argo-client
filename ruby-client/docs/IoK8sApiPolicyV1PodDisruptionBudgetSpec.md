@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiPolicyV1PodDisruptionBudgetSpec
+# ArgoWorkflows::IoK8sApiPolicyV1PodDisruptionBudgetSpec
 
 ## Properties
 Name | Type | Description | Notes

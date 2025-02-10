@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1MutexStatus
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1MutexStatus
 
 ## Properties
 Name | Type | Description | Notes

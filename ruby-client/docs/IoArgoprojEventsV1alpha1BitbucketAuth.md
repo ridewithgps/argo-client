@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1BitbucketAuth
+# ArgoWorkflows::IoArgoprojEventsV1alpha1BitbucketAuth
 
 ## Properties
 Name | Type | Description | Notes

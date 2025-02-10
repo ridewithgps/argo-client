@@ -1,4 +1,4 @@
-# argo-workflows::EventSourceServiceApi
+# ArgoWorkflows::EventSourceServiceApi
 
 All URIs are relative to *http://localhost:2746*
 
@@ -21,26 +21,26 @@ Method | HTTP request | Description
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::EventSourceServiceApi.new
+api_instance = ArgoWorkflows::EventSourceServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
-body = argo-workflows::EventsourceCreateEventSourceRequest.new # EventsourceCreateEventSourceRequest | 
+body = ArgoWorkflows::EventsourceCreateEventSourceRequest.new # EventsourceCreateEventSourceRequest | 
 
 
 begin
   result = api_instance.event_source_service_create_event_source(namespace, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling EventSourceServiceApi->event_source_service_create_event_source: #{e}"
 end
 ```
@@ -75,16 +75,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::EventSourceServiceApi.new
+api_instance = ArgoWorkflows::EventSourceServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -102,7 +102,7 @@ opts = {
 begin
   result = api_instance.event_source_service_delete_event_source(namespace, name, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling EventSourceServiceApi->event_source_service_delete_event_source: #{e}"
 end
 ```
@@ -143,16 +143,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::EventSourceServiceApi.new
+api_instance = ArgoWorkflows::EventSourceServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -176,7 +176,7 @@ opts = {
 begin
   result = api_instance.event_source_service_event_sources_logs(namespace, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling EventSourceServiceApi->event_source_service_event_sources_logs: #{e}"
 end
 ```
@@ -224,16 +224,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::EventSourceServiceApi.new
+api_instance = ArgoWorkflows::EventSourceServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -243,7 +243,7 @@ name = 'name_example' # String |
 begin
   result = api_instance.event_source_service_get_event_source(namespace, name)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling EventSourceServiceApi->event_source_service_get_event_source: #{e}"
 end
 ```
@@ -278,16 +278,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::EventSourceServiceApi.new
+api_instance = ArgoWorkflows::EventSourceServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -307,7 +307,7 @@ opts = {
 begin
   result = api_instance.event_source_service_list_event_sources(namespace, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling EventSourceServiceApi->event_source_service_list_event_sources: #{e}"
 end
 ```
@@ -351,28 +351,28 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::EventSourceServiceApi.new
+api_instance = ArgoWorkflows::EventSourceServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
 name = 'name_example' # String | 
 
-body = argo-workflows::EventsourceUpdateEventSourceRequest.new # EventsourceUpdateEventSourceRequest | 
+body = ArgoWorkflows::EventsourceUpdateEventSourceRequest.new # EventsourceUpdateEventSourceRequest | 
 
 
 begin
   result = api_instance.event_source_service_update_event_source(namespace, name, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling EventSourceServiceApi->event_source_service_update_event_source: #{e}"
 end
 ```
@@ -408,16 +408,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::EventSourceServiceApi.new
+api_instance = ArgoWorkflows::EventSourceServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -437,7 +437,7 @@ opts = {
 begin
   result = api_instance.event_source_service_watch_event_sources(namespace, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling EventSourceServiceApi->event_source_service_watch_event_sources: #{e}"
 end
 ```

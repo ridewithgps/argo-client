@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowEventBindingList
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowEventBindingList
 
 ## Properties
 Name | Type | Description | Notes

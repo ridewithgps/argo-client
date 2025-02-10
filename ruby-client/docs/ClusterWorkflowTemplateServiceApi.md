@@ -1,4 +1,4 @@
-# argo-workflows::ClusterWorkflowTemplateServiceApi
+# ArgoWorkflows::ClusterWorkflowTemplateServiceApi
 
 All URIs are relative to *http://localhost:2746*
 
@@ -20,24 +20,24 @@ Method | HTTP request | Description
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::ClusterWorkflowTemplateServiceApi.new
+api_instance = ArgoWorkflows::ClusterWorkflowTemplateServiceApi.new
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1ClusterWorkflowTemplateCreateRequest.new # IoArgoprojWorkflowV1alpha1ClusterWorkflowTemplateCreateRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1ClusterWorkflowTemplateCreateRequest.new # IoArgoprojWorkflowV1alpha1ClusterWorkflowTemplateCreateRequest | 
 
 
 begin
   result = api_instance.cluster_workflow_template_service_create_cluster_workflow_template(body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling ClusterWorkflowTemplateServiceApi->cluster_workflow_template_service_create_cluster_workflow_template: #{e}"
 end
 ```
@@ -71,16 +71,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::ClusterWorkflowTemplateServiceApi.new
+api_instance = ArgoWorkflows::ClusterWorkflowTemplateServiceApi.new
 
 name = 'name_example' # String | 
 
@@ -96,7 +96,7 @@ opts = {
 begin
   result = api_instance.cluster_workflow_template_service_delete_cluster_workflow_template(name, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling ClusterWorkflowTemplateServiceApi->cluster_workflow_template_service_delete_cluster_workflow_template: #{e}"
 end
 ```
@@ -136,16 +136,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::ClusterWorkflowTemplateServiceApi.new
+api_instance = ArgoWorkflows::ClusterWorkflowTemplateServiceApi.new
 
 name = 'name_example' # String | 
 
@@ -156,7 +156,7 @@ opts = {
 begin
   result = api_instance.cluster_workflow_template_service_get_cluster_workflow_template(name, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling ClusterWorkflowTemplateServiceApi->cluster_workflow_template_service_get_cluster_workflow_template: #{e}"
 end
 ```
@@ -191,24 +191,24 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::ClusterWorkflowTemplateServiceApi.new
+api_instance = ArgoWorkflows::ClusterWorkflowTemplateServiceApi.new
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1ClusterWorkflowTemplateLintRequest.new # IoArgoprojWorkflowV1alpha1ClusterWorkflowTemplateLintRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1ClusterWorkflowTemplateLintRequest.new # IoArgoprojWorkflowV1alpha1ClusterWorkflowTemplateLintRequest | 
 
 
 begin
   result = api_instance.cluster_workflow_template_service_lint_cluster_workflow_template(body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling ClusterWorkflowTemplateServiceApi->cluster_workflow_template_service_lint_cluster_workflow_template: #{e}"
 end
 ```
@@ -242,16 +242,16 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::ClusterWorkflowTemplateServiceApi.new
+api_instance = ArgoWorkflows::ClusterWorkflowTemplateServiceApi.new
 
 opts = { 
   list_options_label_selector: 'list_options_label_selector_example', # String | A selector to restrict the list of returned objects by their labels. Defaults to everything. +optional.
@@ -269,7 +269,7 @@ opts = {
 begin
   result = api_instance.cluster_workflow_template_service_list_cluster_workflow_templates(opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling ClusterWorkflowTemplateServiceApi->cluster_workflow_template_service_list_cluster_workflow_templates: #{e}"
 end
 ```
@@ -312,26 +312,26 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::ClusterWorkflowTemplateServiceApi.new
+api_instance = ArgoWorkflows::ClusterWorkflowTemplateServiceApi.new
 
 name = 'name_example' # String | DEPRECATED: This field is ignored.
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1ClusterWorkflowTemplateUpdateRequest.new # IoArgoprojWorkflowV1alpha1ClusterWorkflowTemplateUpdateRequest | 
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1ClusterWorkflowTemplateUpdateRequest.new # IoArgoprojWorkflowV1alpha1ClusterWorkflowTemplateUpdateRequest | 
 
 
 begin
   result = api_instance.cluster_workflow_template_service_update_cluster_workflow_template(name, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling ClusterWorkflowTemplateServiceApi->cluster_workflow_template_service_update_cluster_workflow_template: #{e}"
 end
 ```

@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1MemoizationStatus
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1MemoizationStatus
 
 ## Properties
 Name | Type | Description | Notes

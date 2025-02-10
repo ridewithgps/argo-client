@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1EmitterEventSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1EmitterEventSource
 
 ## Properties
 Name | Type | Description | Notes

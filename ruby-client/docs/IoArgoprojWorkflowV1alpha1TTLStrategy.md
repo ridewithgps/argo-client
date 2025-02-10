@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1TTLStrategy
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1TTLStrategy
 
 ## Properties
 Name | Type | Description | Notes

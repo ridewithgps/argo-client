@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1Container
+# ArgoWorkflows::IoK8sApiCoreV1Container
 
 ## Properties
 Name | Type | Description | Notes

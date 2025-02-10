@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1StandardK8STrigger
+# ArgoWorkflows::IoArgoprojEventsV1alpha1StandardK8STrigger
 
 ## Properties
 Name | Type | Description | Notes

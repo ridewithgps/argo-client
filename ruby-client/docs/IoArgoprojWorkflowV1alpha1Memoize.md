@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1Memoize
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1Memoize
 
 ## Properties
 Name | Type | Description | Notes

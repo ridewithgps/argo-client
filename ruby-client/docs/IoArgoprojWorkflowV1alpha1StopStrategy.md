@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1StopStrategy
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1StopStrategy
 
 ## Properties
 Name | Type | Description | Notes

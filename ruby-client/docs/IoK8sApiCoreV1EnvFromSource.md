@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1EnvFromSource
+# ArgoWorkflows::IoK8sApiCoreV1EnvFromSource
 
 ## Properties
 Name | Type | Description | Notes

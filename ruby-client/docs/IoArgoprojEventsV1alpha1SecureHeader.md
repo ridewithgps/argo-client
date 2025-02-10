@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1SecureHeader
+# ArgoWorkflows::IoArgoprojEventsV1alpha1SecureHeader
 
 ## Properties
 Name | Type | Description | Notes

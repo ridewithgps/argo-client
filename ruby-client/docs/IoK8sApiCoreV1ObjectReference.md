@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1ObjectReference
+# ArgoWorkflows::IoK8sApiCoreV1ObjectReference
 
 ## Properties
 Name | Type | Description | Notes

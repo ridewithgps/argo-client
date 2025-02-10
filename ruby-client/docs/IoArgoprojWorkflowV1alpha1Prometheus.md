@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1Prometheus
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1Prometheus
 
 ## Properties
 Name | Type | Description | Notes

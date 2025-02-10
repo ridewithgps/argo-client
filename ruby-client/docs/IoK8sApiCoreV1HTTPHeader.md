@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1HTTPHeader
+# ArgoWorkflows::IoK8sApiCoreV1HTTPHeader
 
 ## Properties
 Name | Type | Description | Notes

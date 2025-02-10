@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1GitlabEventSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1GitlabEventSource
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1WebhookEventSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1WebhookEventSource
 
 ## Properties
 Name | Type | Description | Notes

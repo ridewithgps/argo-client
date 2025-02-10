@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1ScriptTemplate
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1ScriptTemplate
 
 ## Properties
 Name | Type | Description | Notes

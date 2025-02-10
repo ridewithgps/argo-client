@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1HTTPGetAction
+# ArgoWorkflows::IoK8sApiCoreV1HTTPGetAction
 
 ## Properties
 Name | Type | Description | Notes

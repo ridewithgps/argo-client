@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1Histogram
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1Histogram
 
 ## Properties
 Name | Type | Description | Notes

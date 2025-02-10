@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1ModifyVolumeStatus
+# ArgoWorkflows::IoK8sApiCoreV1ModifyVolumeStatus
 
 ## Properties
 Name | Type | Description | Notes

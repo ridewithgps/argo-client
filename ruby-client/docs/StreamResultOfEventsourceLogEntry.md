@@ -1,4 +1,4 @@
-# argo-workflows::StreamResultOfEventsourceLogEntry
+# ArgoWorkflows::StreamResultOfEventsourceLogEntry
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1NATSTrigger
+# ArgoWorkflows::IoArgoprojEventsV1alpha1NATSTrigger
 
 ## Properties
 Name | Type | Description | Notes

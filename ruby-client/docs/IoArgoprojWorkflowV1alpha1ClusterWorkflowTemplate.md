@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1ClusterWorkflowTemplate
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1ClusterWorkflowTemplate
 
 ## Properties
 Name | Type | Description | Notes

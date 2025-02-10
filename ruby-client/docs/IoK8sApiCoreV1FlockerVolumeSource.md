@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1FlockerVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1FlockerVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

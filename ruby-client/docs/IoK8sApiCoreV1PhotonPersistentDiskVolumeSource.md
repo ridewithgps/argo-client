@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1PhotonPersistentDiskVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1PhotonPersistentDiskVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

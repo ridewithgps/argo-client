@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApimachineryPkgApisMetaV1ManagedFieldsEntry
+# ArgoWorkflows::IoK8sApimachineryPkgApisMetaV1ManagedFieldsEntry
 
 ## Properties
 Name | Type | Description | Notes

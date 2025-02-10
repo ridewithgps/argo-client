@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1ConfigMapProjection
+# ArgoWorkflows::IoK8sApiCoreV1ConfigMapProjection
 
 ## Properties
 Name | Type | Description | Notes

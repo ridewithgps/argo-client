@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1LogEntry
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1LogEntry
 
 ## Properties
 Name | Type | Description | Notes

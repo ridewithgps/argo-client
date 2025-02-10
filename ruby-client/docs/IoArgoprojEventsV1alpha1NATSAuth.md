@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1NATSAuth
+# ArgoWorkflows::IoArgoprojEventsV1alpha1NATSAuth
 
 ## Properties
 Name | Type | Description | Notes

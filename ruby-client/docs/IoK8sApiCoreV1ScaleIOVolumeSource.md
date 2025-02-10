@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1ScaleIOVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1ScaleIOVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

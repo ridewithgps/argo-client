@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1SensorSpec
+# ArgoWorkflows::IoArgoprojEventsV1alpha1SensorSpec
 
 ## Properties
 Name | Type | Description | Notes

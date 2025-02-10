@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1GerritEventSource
+# ArgoWorkflows::IoArgoprojEventsV1alpha1GerritEventSource
 
 ## Properties
 Name | Type | Description | Notes

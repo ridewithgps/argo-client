@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1EmptyDirVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1EmptyDirVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

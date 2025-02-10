@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1HTTPTrigger
+# ArgoWorkflows::IoArgoprojEventsV1alpha1HTTPTrigger
 
 ## Properties
 Name | Type | Description | Notes

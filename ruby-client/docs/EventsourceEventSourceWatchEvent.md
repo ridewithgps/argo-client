@@ -1,4 +1,4 @@
-# argo-workflows::EventsourceEventSourceWatchEvent
+# ArgoWorkflows::EventsourceEventSourceWatchEvent
 
 ## Properties
 Name | Type | Description | Notes

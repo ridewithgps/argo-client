@@ -1,4 +1,4 @@
-# argo-workflows::EventServiceApi
+# ArgoWorkflows::EventServiceApi
 
 All URIs are relative to *http://localhost:2746*
 
@@ -16,16 +16,16 @@ Method | HTTP request | Description
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::EventServiceApi.new
+api_instance = ArgoWorkflows::EventServiceApi.new
 
 namespace = 'namespace_example' # String | 
 
@@ -45,7 +45,7 @@ opts = {
 begin
   result = api_instance.event_service_list_workflow_event_bindings(namespace, opts)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling EventServiceApi->event_service_list_workflow_event_bindings: #{e}"
 end
 ```
@@ -89,28 +89,28 @@ Name | Type | Description  | Notes
 ### Example
 ```ruby
 # load the gem
-require 'argo-workflows-ruby-client'
+require 'argo_workflows'
 # setup authorization
-argo-workflows.configure do |config|
+ArgoWorkflows.configure do |config|
   # Configure API key authorization: BearerToken
   config.api_key['Authorization'] = 'YOUR API KEY'
   # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
   #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
-api_instance = argo-workflows::EventServiceApi.new
+api_instance = ArgoWorkflows::EventServiceApi.new
 
 namespace = 'namespace_example' # String | The namespace for the io.argoproj.workflow.v1alpha1. This can be empty if the client has cluster scoped permissions. If empty, then the event is \"broadcast\" to workflow event binding in all namespaces.
 
 discriminator = 'discriminator_example' # String | Optional discriminator for the io.argoproj.workflow.v1alpha1. This should almost always be empty. Used for edge-cases where the event payload alone is not provide enough information to discriminate the event. This MUST NOT be used as security mechanism, e.g. to allow two clients to use the same access token, or to support webhooks on unsecured server. Instead, use access tokens. This is made available as `discriminator` in the event binding selector (`/spec/event/selector)`
 
-body = argo-workflows::IoArgoprojWorkflowV1alpha1Item.new # IoArgoprojWorkflowV1alpha1Item | The event itself can be any data.
+body = ArgoWorkflows::IoArgoprojWorkflowV1alpha1Item.new # IoArgoprojWorkflowV1alpha1Item | The event itself can be any data.
 
 
 begin
   result = api_instance.event_service_receive_event(namespace, discriminator, body)
   p result
-rescue argo-workflows::ApiError => e
+rescue ArgoWorkflows::ApiError => e
   puts "Exception when calling EventServiceApi->event_service_receive_event: #{e}"
 end
 ```

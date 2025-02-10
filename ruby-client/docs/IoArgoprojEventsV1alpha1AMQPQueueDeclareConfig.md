@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1AMQPQueueDeclareConfig
+# ArgoWorkflows::IoArgoprojEventsV1alpha1AMQPQueueDeclareConfig
 
 ## Properties
 Name | Type | Description | Notes

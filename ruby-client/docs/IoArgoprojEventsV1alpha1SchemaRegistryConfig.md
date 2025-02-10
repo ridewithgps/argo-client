@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1SchemaRegistryConfig
+# ArgoWorkflows::IoArgoprojEventsV1alpha1SchemaRegistryConfig
 
 ## Properties
 Name | Type | Description | Notes

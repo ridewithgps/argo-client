@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApimachineryPkgApisMetaV1ObjectMeta
+# ArgoWorkflows::IoK8sApimachineryPkgApisMetaV1ObjectMeta
 
 ## Properties
 Name | Type | Description | Notes

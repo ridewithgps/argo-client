@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1WeightedPodAffinityTerm
+# ArgoWorkflows::IoK8sApiCoreV1WeightedPodAffinityTerm
 
 ## Properties
 Name | Type | Description | Notes

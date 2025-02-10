@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojEventsV1alpha1AMQPQueueBindConfig
+# ArgoWorkflows::IoArgoprojEventsV1alpha1AMQPQueueBindConfig
 
 ## Properties
 Name | Type | Description | Notes

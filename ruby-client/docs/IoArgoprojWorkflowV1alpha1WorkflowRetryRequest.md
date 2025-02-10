@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1WorkflowRetryRequest
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1WorkflowRetryRequest
 
 ## Properties
 Name | Type | Description | Notes

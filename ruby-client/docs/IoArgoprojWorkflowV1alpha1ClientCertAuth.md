@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1ClientCertAuth
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1ClientCertAuth
 
 ## Properties
 Name | Type | Description | Notes

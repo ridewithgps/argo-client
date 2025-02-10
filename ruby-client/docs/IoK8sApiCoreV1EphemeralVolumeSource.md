@@ -1,4 +1,4 @@
-# argo-workflows::IoK8sApiCoreV1EphemeralVolumeSource
+# ArgoWorkflows::IoK8sApiCoreV1EphemeralVolumeSource
 
 ## Properties
 Name | Type | Description | Notes

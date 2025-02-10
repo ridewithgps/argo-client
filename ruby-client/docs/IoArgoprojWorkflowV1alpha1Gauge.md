@@ -1,4 +1,4 @@
-# argo-workflows::IoArgoprojWorkflowV1alpha1Gauge
+# ArgoWorkflows::IoArgoprojWorkflowV1alpha1Gauge
 
 ## Properties
 Name | Type | Description | Notes
