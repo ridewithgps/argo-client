@@ -48,3 +48,12 @@ CONFIG OPTIONS
 
 	hideGenerationTimestamp
 	    Hides the generation timestamp when files are generated. (Default: true)
+
+# How to push the gem to rubygems.org
+
+You'll need to have a rubygems.org account with push permissions on the
+`argo_workflows` gem.
+
+```shell
+./push.sh
+```
